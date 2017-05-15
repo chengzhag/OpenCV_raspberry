@@ -19,6 +19,7 @@
     <MainSourceDirectoryForLocalBuilds>D:\OpenCV_3_2_0_source</MainSourceDirectoryForLocalBuilds>
   </Project>
   <Build xsi:type="com.visualgdb.build.cmake">
+    <RelativeSourceDirectory />
     <ConfigurationType>DEBUG</ConfigurationType>
     <BinaryDirectory>build/Debug</BinaryDirectory>
     <Toolchain>
@@ -44,10 +45,6 @@
     </Toolchain>
     <MakeCommandTemplate>
       <SkipWhenRunningCommandList>false</SkipWhenRunningCommandList>
-      <RemoteHost>
-        <HostName>BuildMachine</HostName>
-        <Transport>BuiltinShortcut</Transport>
-      </RemoteHost>
       <Command>cmd.exe</Command>
       <Arguments>/c "C:\SysGCC\Raspberry\bin\make.exe"</Arguments>
       <WorkingDirectory>$(BuildDir)</WorkingDirectory>
@@ -62,16 +59,15 @@
             <Value>C:\SysGCC\Raspberry\bin;%PATH%</Value>
           </Record>
         </Records>
+        <EnvironmentSetupFiles />
       </Environment>
       <BackgroundMode xsi:nil="true" />
     </MakeCommandTemplate>
     <CMakeCommand>
       <SkipWhenRunningCommandList>false</SkipWhenRunningCommandList>
-      <RemoteHost>
-        <HostName>BuildMachine</HostName>
-        <Transport>BuiltinShortcut</Transport>
-      </RemoteHost>
       <Command>C:\Program Files\CMake\bin\cmake.exe</Command>
+      <Arguments />
+      <WorkingDirectory />
       <Environment>
         <Records>
           <Record>
@@ -81,6 +77,14 @@
           <Record>
             <VariableName>PATH</VariableName>
             <Value>C:\SysGCC\Raspberry\bin;%PATH%</Value>
+          </Record>
+          <Record>
+            <VariableName>PKG_CONFIG_SYSROOT_DIR</VariableName>
+            <Value>C:/SysGCC/Raspberry/arm-linux-gnueabihf/sysroot</Value>
+          </Record>
+          <Record>
+            <VariableName>PKG_CONFIG_PATH</VariableName>
+            <Value>C:/SysGCC/Raspberry/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/pkgconfig;C:/SysGCC/Raspberry/arm-linux-gnueabihf/sysroot/usr/share/pkgconfig</Value>
           </Record>
         </Records>
       </Environment>
@@ -133,6 +137,7 @@
             <Value>C:\SysGCC\Raspberry\bin;%PATH%</Value>
           </Record>
         </Records>
+        <EnvironmentSetupFiles />
       </GDBEnvironment>
       <DebuggedProgram>$(TargetPath)</DebuggedProgram>
       <GDBServerPort>2000</GDBServerPort>
@@ -165,6 +170,7 @@
     <ShowMessageAfterExecuting>true</ShowMessageAfterExecuting>
   </CustomShortcuts>
   <UserDefinedVariables />
+  <ImportedPropertySheets />
   <CodeSense>
     <Enabled>Unknown</Enabled>
     <ExtraSettings>
