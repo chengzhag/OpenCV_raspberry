@@ -1,11 +1,19 @@
 # OpenCV_raspberry
 为树莓派编译opencv，基于visualGDB的项目，不包含opencv源码和编译结果！！
 
-## 简单建立流程
+## 简单使用
+基于[官方教程](https://visualgdb.com/tutorials/raspberry/opencv/build/)建立opencv3交叉编译工程，所有软件均安装在默认目录
 
+### 树莓派配置
+1. 安装基于官方教程的镜像文件配置了opencv开发环境和依赖库的镜像
+### windows端配置
 1. 安装并破解visualGDB5.2r8（根据前面的经验，5.1版无法识别树莓派系统目录中的某些依赖库）
-1. 解压opencv源码到D:\Program Files\OpenCV_3_2_0_source（该工程中opencv源码默认目录，不可更改）
-1. 按[官方教程](https://visualgdb.com/tutorials/raspberry/opencv/build/)建立opencv3交叉编译工程并安装到树莓派上
+1. 解压打包好的opencv源码和编译好的动态链接库到D:\Program Files\OpenCV_3_2_0_source（为该工程中配置的opencv源码目录，不可更改）
+1. 安装官网提供的[Raspberry / PI的Windows工具链](http://gnutoolchains.com/raspberry/)。下载  4.9.2	2016-09-23-raspbian-jessie (Raspberry Pi 1/2/3/Zero)	raspberry-gcc-4.9.2-r4.exe (738 MB)  并安装
+1. 直接打开visual studio工程文件，右键工程名-visualGDB属性-Project settings-Deployment machine，设置目标树莓派的ip和账户、密码
+1. 右键工程名-visualGDB属性-CMake project settings-同步sysroot-OK，大概耗时1小时。也可以直接复制拷贝的sysroot文件夹到C:\SysGCC\Raspberry\arm-linux-gnueabihf目录
+1. 此时就可以进行编译了，如果报错，可能需要按照[官方教程](https://visualgdb.com/tutorials/raspberry/opencv/build/)第10步在windows端make install一下
+
 
 ## 经验与资料
 
@@ -74,9 +82,11 @@ Looks like your toolchain sysroot may have the incorrect linker configuration fi
         * 下一步升级到visualGDB5.2尝试重新同步树莓派目录
 
 
-
-
 编译好后的二进制可执行文件如何运行？
 
 * chmod添加可执行权限：chmod 777 filename
 * 执行：./filename 参数列表
+
+# OpenCVDemo
+基于上述编译好后的opencv库的演示例程——canny边缘检测
+
