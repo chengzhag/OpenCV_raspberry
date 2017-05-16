@@ -92,7 +92,13 @@
     <DisableToolchainFile>false</DisableToolchainFile>
   </Build>
   <Debug xsi:type="com.visualgdb.debug.remote">
-    <AdditionalStartupCommands />
+    <AdditionalStartupCommands>
+      <GDBPreStartupCommands>
+        <string>set solib-search-path C:/Users/Sky/Desktop/OpenCV_raspberry/raspicam-0.1.6/build/Debug/src;D:/OpenCV_3_2_0_source/build/Debug/lib</string>
+      </GDBPreStartupCommands>
+      <GDBStartupCommands />
+      <GDBFinalizationCommands />
+    </AdditionalStartupCommands>
     <AdditionalGDBSettings>
       <Features>
         <DisableAutoDetection>false</DisableAutoDetection>
