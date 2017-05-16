@@ -79,10 +79,12 @@
             <Value>C:\SysGCC\Raspberry\bin;%PATH%</Value>
           </Record>
         </Records>
+        <EnvironmentSetupFiles />
       </Environment>
       <BackgroundMode xsi:nil="true" />
     </CMakeCommand>
     <UpdateSourcesInCMakeFile>false</UpdateSourcesInCMakeFile>
+    <ExplicitDebugTarget>$(ProjectDir)-0.1.6\build\Debug\src\libraspicam.so.0.1</ExplicitDebugTarget>
     <ExportCompileCommands>true</ExportCompileCommands>
     <DisableToolchainFile>false</DisableToolchainFile>
   </Build>

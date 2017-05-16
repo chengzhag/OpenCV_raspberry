@@ -135,7 +135,48 @@
   </CustomBuild>
   <CustomDebug>
     <PreDebugActions />
-    <PostDebugActions />
+    <PostDebugActions>
+      <CustomActionBase xsi:type="CommandLineAction">
+        <SkipWhenRunningCommandList>false</SkipWhenRunningCommandList>
+        <RemoteHost>
+          <HostName>192.168.2.101</HostName>
+          <Transport>SSH</Transport>
+          <UserName>pi</UserName>
+        </RemoteHost>
+        <Command>sh -c</Command>
+        <Arguments>"ppmtojpeg output.ppm &gt; output.jpg"</Arguments>
+        <WorkingDirectory>$(DeployDir)</WorkingDirectory>
+        <Environment>
+          <Records />
+          <EnvironmentSetupFiles />
+        </Environment>
+        <BackgroundMode>false</BackgroundMode>
+      </CustomActionBase>
+      <CustomActionBase xsi:type="FileTransferAction">
+        <SkipWhenRunningCommandList>true</SkipWhenRunningCommandList>
+        <SourceHost>
+          <HostName>192.168.2.101</HostName>
+          <Transport>SSH</Transport>
+          <UserName>pi</UserName>
+        </SourceHost>
+        <DestinationHost>
+          <HostName>BuildMachine</HostName>
+          <Transport>BuiltinShortcut</Transport>
+        </DestinationHost>
+        <SourceFilePath>$(DeployDir)/output.jpg</SourceFilePath>
+        <DestinationFilePath>$(ProjectDir)/output.jpg</DestinationFilePath>
+      </CustomActionBase>
+      <CustomActionBase xsi:type="DirectoryTransferAction">
+        <SkipWhenRunningCommandList>false</SkipWhenRunningCommandList>
+        <SourceHost>
+          <HostName>192.168.2.101</HostName>
+          <Transport>SSH</Transport>
+          <UserName>pi</UserName>
+        </SourceHost>
+        <SourceDirectoryPath>$(DeployDir)/output.jpg</SourceDirectoryPath>
+        <DestinationDirectoryPath>$(ProjectDir)/output.jpg</DestinationDirectoryPath>
+      </CustomActionBase>
+    </PostDebugActions>
     <DebugStopActions />
     <BreakMode>Default</BreakMode>
   </CustomDebug>

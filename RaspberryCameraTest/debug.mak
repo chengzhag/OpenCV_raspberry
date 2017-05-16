@@ -13,8 +13,8 @@ OBJCOPY := C:/SysGCC/Raspberry/bin/arm-linux-gnueabihf-objcopy.exe
 
 #Additional flags
 PREPROCESSOR_MACROS := DEBUG=1
-INCLUDE_DIRS := ../../raspicam-0.1.6/src
-LIBRARY_DIRS := ../../raspicam-0.1.6/build/Debug/src
+INCLUDE_DIRS := ../raspicam-0.1.6/src
+LIBRARY_DIRS := ../raspicam-0.1.6/build/Debug/src
 LIBRARY_NAMES := raspicam
 ADDITIONAL_LINKER_INPUTS := 
 MACOS_FRAMEWORKS := 

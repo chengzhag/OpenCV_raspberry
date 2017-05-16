@@ -7,6 +7,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVDemo", "OpenCVDemo\OpenCVDemo.vcxproj", "{CC82B48A-601E-431A-A40C-44724DDEE76C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RaspberryCameraTest", "RaspberryCameraTest\RaspberryCameraTest.vcxproj", "{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5} = {A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Raspicam", "Raspicam\Raspicam.vcxproj", "{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}"
 EndProject
