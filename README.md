@@ -87,6 +87,19 @@ Looks like your toolchain sysroot may have the incorrect linker configuration fi
 * chmod添加可执行权限：chmod 777 filename
 * 执行：./filename 参数列表
 
-# OpenCVDemo
+# 例程
+
+## OpenCVDemo
 基于上述编译好后的opencv库的演示例程——canny边缘检测
 
+## Raspicam
+树莓派的C++摄像头库编译工程，支持opencv
+
+## raspicam-0.1.6
+被Raspicam引用，raspicam源码
+
+## RaspberryCameraTest
+测试编译的Raspicam库，不依赖opencv
+
+## OpenCVCameraDemo
+基于opencv和Raspicam的边缘检测例程

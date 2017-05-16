@@ -87,6 +87,7 @@
             <Value>C:/SysGCC/Raspberry/arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/pkgconfig;C:/SysGCC/Raspberry/arm-linux-gnueabihf/sysroot/usr/share/pkgconfig</Value>
           </Record>
         </Records>
+        <EnvironmentSetupFiles />
       </Environment>
       <BackgroundMode xsi:nil="true" />
     </CMakeCommand>
