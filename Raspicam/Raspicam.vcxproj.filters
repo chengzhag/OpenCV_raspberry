@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{1a5cacfb-e72a-4ee9-9157-ccd27241d6e3}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{d6f6a598-1490-4fa9-8431-7423cacfa132}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{89829f3e-ee2f-4c65-b5ca-f4508cf1ca7b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header files\dependencies">
+      <UniqueIdentifier>{bc8ffa46-f6da-4d7a-ba23-d4783db55789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current">
+      <UniqueIdentifier>{3ea475dc-ae7b-4a3d-b986-31215675264b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface">
+      <UniqueIdentifier>{77e0c37c-47c1-4edf-be24-1e9380fc1f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\mmal">
+      <UniqueIdentifier>{1a53e531-6753-42df-8353-61d6b5836ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies">
+      <UniqueIdentifier>{e6cd8aca-5334-4cad-a716-ef8bb59db151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current">
+      <UniqueIdentifier>{45bc96db-7c3a-4cc1-83db-35dfe816d05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface">
+      <UniqueIdentifier>{0938ce71-d749-409e-a90a-1aa0e18b2c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal">
+      <UniqueIdentifier>{d8843c67-4b8e-43bb-8074-afd1db267328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\client">
+      <UniqueIdentifier>{964a3e50-4ddb-49e5-8830-e1e03541d824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\client\brcmjpeg">
+      <UniqueIdentifier>{f9ea6163-de57-411c-994f-b787a0ea3ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\mmal\client">
+      <UniqueIdentifier>{284ad193-7536-4ae0-acba-9505796d3c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\mmal\client\brcmjpeg">
+      <UniqueIdentifier>{1e54a682-9a84-4b2c-915a-01bb43a58cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\components">
+      <UniqueIdentifier>{cc8fb813-23d8-406e-916f-fe2d69454654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\core">
+      <UniqueIdentifier>{6af9c10d-a7cf-4494-994e-34a83d6f6feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\mmal\core">
+      <UniqueIdentifier>{a3c9fa80-8d60-46ef-ac34-967c2f2f0b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\openmaxil">
+      <UniqueIdentifier>{f43906a0-1f1b-4977-97b0-7eec01c06b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\mmal\openmaxil">
+      <UniqueIdentifier>{0b5d4f57-01cf-43f7-89af-7ba9359c1445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\test">
+      <UniqueIdentifier>{1dfbad76-a949-415c-8172-857ad5127dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\test\examples">
+      <UniqueIdentifier>{e9351fce-a7ec-4deb-a785-997b21809786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\util">
+      <UniqueIdentifier>{85c978a7-0dc4-4864-822e-c9110758b549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\mmal\util">
+      <UniqueIdentifier>{c3516954-30ee-44b6-a21d-0ab46f19ffb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\mmal\vc">
+      <UniqueIdentifier>{bf4bf71d-1858-479f-8643-eb34adf0519b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\mmal\vc">
+      <UniqueIdentifier>{6b066b44-c2ae-41aa-86fa-1081e0003852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\vcos">
+      <UniqueIdentifier>{3c2872f4-34c4-4a15-9589-055c682c0342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\vcos">
+      <UniqueIdentifier>{5723f9a0-2e25-4a15-880f-249b31037581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\vcos\generic">
+      <UniqueIdentifier>{57479cad-5ea7-4c76-979b-3919a4544cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\vcos\generic">
+      <UniqueIdentifier>{d4fa3750-65af-4d3a-947f-e04eb8dca949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\vcos\glibc">
+      <UniqueIdentifier>{03f31c1d-bfb1-4d5a-b713-59c8d750577b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\dependencies\current\interface\vcos\pthreads">
+      <UniqueIdentifier>{2df50dd6-acda-43e9-8927-b7eeb623d660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\dependencies\current\interface\vcos\pthreads">
+      <UniqueIdentifier>{7c5b445d-f1a9-42e2-8f7f-c51a065d396a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\src">
+      <UniqueIdentifier>{eb9d24e9-b207-4001-a2e4-0a141a32a721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\src">
+      <UniqueIdentifier>{fd204f93-876c-4806-aaaa-59b34a5edba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\src\private">
+      <UniqueIdentifier>{bde2d6eb-aa5c-47fe-8af1-a82186352e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\src\private">
+      <UniqueIdentifier>{e8ec5446-5982-42d1-a1c0-edc4fb93a28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\src\private_still">
+      <UniqueIdentifier>{89802761-5771-4a3e-b362-60f398ec7677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\src\private_still">
+      <UniqueIdentifier>{24ec4b1e-1f50-4a68-8d05-e5cac4aa927d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\utils">
+      <UniqueIdentifier>{2add4f1f-027e-428f-9106-79f2c38ae634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake files">
+      <UniqueIdentifier>{67d4f756-0f9d-4473-9441-268cda7a44c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{ef421c7c-072b-4ad1-b6b7-aa57a071cc50}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_buffer.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_clock.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_common.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_component.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_encodings.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_events.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_format.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_logging.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_metadata.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_audio.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_camera.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_clock.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_common.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_video.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_pool.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_port.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_queue.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_types.h">
+      <Filter>Header files\dependencies\current\interface\mmal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\client\brcmjpeg\brcmjpeg.h">
+      <Filter>Header files\dependencies\current\interface\mmal\client\brcmjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_buffer_private.h">
+      <Filter>Header files\dependencies\current\interface\mmal\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_clock_private.h">
+      <Filter>Header files\dependencies\current\interface\mmal\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_component_private.h">
+      <Filter>Header files\dependencies\current\interface\mmal\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_core_private.h">
+      <Filter>Header files\dependencies\current\interface\mmal\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_events_private.h">
+      <Filter>Header files\dependencies\current\interface\mmal\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_port_private.h">
+      <Filter>Header files\dependencies\current\interface\mmal\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_buffer.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_commands.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_logging.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_marks.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_parameters.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_registry.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_roles.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_common.h">
+      <Filter>Header files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_component_wrapper.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_connection.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_default_components.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_graph.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_il.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_list.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_param_convert.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_params.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_rational.h">
+      <Filter>Header files\dependencies\current\interface\mmal\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api_drm.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_client_priv.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_dbglog.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_msgnames.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_msgs.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_opaque_alloc.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_shm.h">
+      <Filter>Header files\dependencies\current\interface\mmal\vc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\user_nodefs.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_assert.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_atomic_flags.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_attr.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_blockpool.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_build_info.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_cfg.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_cmd.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_ctype.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_dlfcn.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_event.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_event_flags.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_init.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_inttypes.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_isr.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_legacy_isr.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_logging.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_logging_control.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_lowlevel_thread.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_mem.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_mempool.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_msgqueue.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_mutex.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_named_semaphore.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_once.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_queue.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_quickslow_mutex.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_reentrant_mutex.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_semaphore.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_stdbool.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_stdint.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_string.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_thread.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_thread_attr.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_timer.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_tls.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_types.h">
+      <Filter>Header files\dependencies\current\interface\vcos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_common.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_deprecated.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_blockpool.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_event_flags.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_named_sem.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_quickslow_mutex.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_reentrant_mtx.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_tls.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_joinable_thread_from_plain.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_latch_from_sem.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_mem_from_malloc.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_mutexes_are_reentrant.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_thread_reaper.h">
+      <Filter>Header files\dependencies\current\interface\vcos\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_futex_mutex.h">
+      <Filter>Header files\dependencies\current\interface\vcos\pthreads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_platform.h">
+      <Filter>Header files\dependencies\current\interface\vcos\pthreads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_platform_types.h">
+      <Filter>Header files\dependencies\current\interface\vcos\pthreads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam.h">
+      <Filter>Header files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicamtypes.h">
+      <Filter>Header files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam_cv.h">
+      <Filter>Header files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam_still.h">
+      <Filter>Header files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam_still_cv.h">
+      <Filter>Header files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\scaler.h">
+      <Filter>Header files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\private\exceptions.h">
+      <Filter>Header files\src\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\private\private_impl.h">
+      <Filter>Header files\src\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\private\private_types.h">
+      <Filter>Header files\src\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\private\threadcondition.h">
+      <Filter>Header files\src\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raspicam-0.1.6\src\private_still\private_still_impl.h">
+      <Filter>Header files\src\private_still</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\client\brcmjpeg\brcmjpeg.c">
+      <Filter>Source files\dependencies\current\interface\mmal\client\brcmjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\client\brcmjpeg\brcmjpeg_test.c">
+      <Filter>Source files\dependencies\current\interface\mmal\client\brcmjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\aaf_audio_render.cpp">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\aggregator.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\android_media_codec.cpp">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\artificial_camera.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\avcodec_audio_decoder.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\avcodec_video_decoder.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\clock.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\container_reader.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\copy.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\null_sink.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\passthrough.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\scheduler.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\sdl_audio_render.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\sdl_video_render.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\spdif.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\splitter.c">
+      <Filter>Source files\dependencies\current\interface\mmal\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_buffer.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_clock.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_component.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_events.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_format.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_logging.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_pool.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_port.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_port_clock.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_queue.c">
+      <Filter>Source files\dependencies\current\interface\mmal\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_buffer.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_commands.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_core.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_logging.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_marks.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_parameters.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_registry.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_roles.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_audio.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_camera.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_misc.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_video.c">
+      <Filter>Source files\dependencies\current\interface\mmal\openmaxil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_basic_1.c">
+      <Filter>Source files\dependencies\current\interface\mmal\test\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_basic_2.c">
+      <Filter>Source files\dependencies\current\interface\mmal\test\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_connections.c">
+      <Filter>Source files\dependencies\current\interface\mmal\test\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_graph.c">
+      <Filter>Source files\dependencies\current\interface\mmal\test\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_component_wrapper.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_connection.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_graph.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_il.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_list.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_param_convert.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_params.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_rational.c">
+      <Filter>Source files\dependencies\current\interface\mmal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api.c">
+      <Filter>Source files\dependencies\current\interface\mmal\vc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api_drm.c">
+      <Filter>Source files\dependencies\current\interface\mmal\vc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_client.c">
+      <Filter>Source files\dependencies\current\interface\mmal\vc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_diag.c">
+      <Filter>Source files\dependencies\current\interface\mmal\vc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_msgnames.c">
+      <Filter>Source files\dependencies\current\interface\mmal\vc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_opaque_alloc.c">
+      <Filter>Source files\dependencies\current\interface\mmal\vc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_shm.c">
+      <Filter>Source files\dependencies\current\interface\mmal\vc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_abort.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_cmd.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_blockpool.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_event_flags.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_named_sem.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_reentrant_mtx.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_safe_string.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_init.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_logcat.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_mem_from_malloc.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_msgqueue.c">
+      <Filter>Source files\dependencies\current\interface\vcos\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\glibc\vcos_backtrace.c">
+      <Filter>Source files\dependencies\current\interface\vcos\glibc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_dlfcn.c">
+      <Filter>Source files\dependencies\current\interface\vcos\pthreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_pthreads.c">
+      <Filter>Source files\dependencies\current\interface\vcos\pthreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam.cpp">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam_cv.cpp">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam_still.cpp">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam_still_cv.cpp">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\private\fake_mmal_dependencies.cpp">
+      <Filter>Source files\src\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\private\private_impl.cpp">
+      <Filter>Source files\src\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\private\threadcondition.cpp">
+      <Filter>Source files\src\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\src\private_still\private_still_impl.cpp">
+      <Filter>Source files\src\private_still</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_cv_still_test.cpp">
+      <Filter>Source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_cv_test.cpp">
+      <Filter>Source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_still_test.cpp">
+      <Filter>Source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_test.cpp">
+      <Filter>Source files\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\raspicam-0.1.6\CMakeLists.txt">
+      <Filter>CMake files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\raspicam-0.1.6\toolchain-Debug.cmake">
+      <Filter>CMake files</Filter>
+    </None>
+    <None Include="Raspicam-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="..\raspicam-0.1.6\toolchain-Release.cmake">
+      <Filter>CMake files</Filter>
+    </None>
+    <None Include="Raspicam-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

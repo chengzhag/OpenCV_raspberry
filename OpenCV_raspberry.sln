@@ -6,6 +6,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_raspberry", "OpenCV_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVDemo", "OpenCVDemo\OpenCVDemo.vcxproj", "{CC82B48A-601E-431A-A40C-44724DDEE76C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RaspberryCameraTest", "RaspberryCameraTest\RaspberryCameraTest.vcxproj", "{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Raspicam", "Raspicam\Raspicam.vcxproj", "{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -26,6 +30,18 @@ Global
 		{CC82B48A-601E-431A-A40C-44724DDEE76C}.Release|x64.ActiveCfg = Release|Win32
 		{CC82B48A-601E-431A-A40C-44724DDEE76C}.Release|x86.ActiveCfg = Release|Win32
 		{CC82B48A-601E-431A-A40C-44724DDEE76C}.Release|x86.Build.0 = Release|Win32
+		{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}.Debug|x64.ActiveCfg = Debug|Win32
+		{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}.Debug|x86.Build.0 = Debug|Win32
+		{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}.Release|x64.ActiveCfg = Release|Win32
+		{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}.Release|x86.ActiveCfg = Release|Win32
+		{DC6ADD51-4DA8-437F-B16F-C582D53A9B44}.Release|x86.Build.0 = Release|Win32
+		{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}.Debug|x64.ActiveCfg = Debug|Win32
+		{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}.Debug|x86.Build.0 = Debug|Win32
+		{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}.Release|x64.ActiveCfg = Release|Win32
+		{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}.Release|x86.ActiveCfg = Release|Win32
+		{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

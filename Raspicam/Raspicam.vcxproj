@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A03FB604-D0D2-4EE1-AB09-68A83FBBC4C5}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeIncludeSearchPath>c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9;c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9\backward;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include-fixed;c:\sysgcc\raspberry\arm-linux-gnueabihf\include;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\arm-linux-gnueabihf;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)Raspicam-Debug.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeIncludeSearchPath>c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9;c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9\backward;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include-fixed;c:\sysgcc\raspberry\arm-linux-gnueabihf\include;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\arm-linux-gnueabihf;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)Raspicam-Release.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="..\raspicam-0.1.6\CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_buffer.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_clock.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_common.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_component.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_encodings.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_events.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_format.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_logging.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_metadata.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_audio.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_camera.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_clock.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_common.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_parameters_video.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_pool.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_port.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_queue.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\mmal_types.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\client\brcmjpeg\brcmjpeg.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_buffer_private.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_clock_private.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_component_private.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_core_private.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_events_private.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_port_private.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_buffer.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_commands.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_logging.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_marks.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_parameters.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_registry.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_roles.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_common.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_component_wrapper.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_connection.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_default_components.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_graph.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_il.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_list.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_param_convert.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_params.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_rational.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api_drm.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_client_priv.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_dbglog.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_msgnames.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_msgs.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_opaque_alloc.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_shm.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\user_nodefs.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_assert.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_atomic_flags.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_attr.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_blockpool.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_build_info.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_cfg.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_cmd.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_ctype.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_dlfcn.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_event.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_event_flags.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_init.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_inttypes.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_isr.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_legacy_isr.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_logging.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_logging_control.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_lowlevel_thread.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_mem.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_mempool.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_msgqueue.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_mutex.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_named_semaphore.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_once.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_queue.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_quickslow_mutex.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_reentrant_mutex.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_semaphore.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_stdbool.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_stdint.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_string.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_thread.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_thread_attr.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_timer.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_tls.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\vcos_types.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_common.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_deprecated.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_blockpool.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_event_flags.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_named_sem.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_quickslow_mutex.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_reentrant_mtx.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_tls.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_joinable_thread_from_plain.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_latch_from_sem.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_mem_from_malloc.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_mutexes_are_reentrant.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_thread_reaper.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_futex_mutex.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_platform.h" />
+    <ClInclude Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_platform_types.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicamtypes.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam_cv.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam_still.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\raspicam_still_cv.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\scaler.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\private\exceptions.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\private\private_impl.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\private\private_types.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\private\threadcondition.h" />
+    <ClInclude Include="..\raspicam-0.1.6\src\private_still\private_still_impl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\client\brcmjpeg\brcmjpeg.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\client\brcmjpeg\brcmjpeg_test.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\aaf_audio_render.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\aggregator.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\android_media_codec.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\artificial_camera.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\avcodec_audio_decoder.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\avcodec_video_decoder.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\clock.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\container_reader.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\copy.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\null_sink.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\passthrough.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\scheduler.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\sdl_audio_render.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\sdl_video_render.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\spdif.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\components\splitter.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_buffer.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_clock.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_component.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_events.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_format.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_logging.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_pool.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_port.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_port_clock.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\core\mmal_queue.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_buffer.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_commands.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_core.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_logging.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_marks.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_parameters.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_registry.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_roles.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_audio.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_camera.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_misc.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\openmaxil\mmalomx_util_params_video.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_basic_1.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_basic_2.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_connections.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\test\examples\example_graph.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_component_wrapper.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_connection.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_graph.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_il.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_list.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_param_convert.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_params.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\util\mmal_util_rational.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_api_drm.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_client.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_diag.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_msgnames.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_opaque_alloc.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\mmal\vc\mmal_vc_shm.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_abort.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_cmd.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_blockpool.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_event_flags.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_named_sem.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_reentrant_mtx.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_generic_safe_string.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_init.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_logcat.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_mem_from_malloc.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\generic\vcos_msgqueue.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\glibc\vcos_backtrace.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_dlfcn.c" />
+    <ClCompile Include="..\raspicam-0.1.6\dependencies\current\interface\vcos\pthreads\vcos_pthreads.c" />
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam_cv.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam_still.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\src\raspicam_still_cv.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\src\private\fake_mmal_dependencies.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\src\private\private_impl.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\src\private\threadcondition.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\src\private_still\private_still_impl.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_cv_still_test.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_cv_test.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_still_test.cpp" />
+    <ClCompile Include="..\raspicam-0.1.6\utils\raspicam_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\raspicam-0.1.6\toolchain-Debug.cmake" />
+    <None Include="..\raspicam-0.1.6\toolchain-Release.cmake" />
+    <None Include="Raspicam-Debug.vgdbsettings" />
+    <None Include="Raspicam-Release.vgdbsettings" />
+  </ItemGroup>
+</Project>
